@@ -1,0 +1,63 @@
+html {
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #1e1f2b;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  margin: 1%;
+  border: 6px #f85f5f solid !important;
+  border-radius: 20px /*haut gauche*/ 10px /*haut droit*/ 20px /*bas droite*/ 10px /*bas gauche*/;
+  font-size: 16px;
+}
+*::selection{
+  background-color: #bd3d3d;
+}
+
+
+/*CONTACT*/
+  .blue {
+    text-align: center;
+  }
+  
+  
+  .contact input, .contact textarea {
+    display: block;
+    width: auto;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid #3e3496;
+    margin-bottom: 10px;
+    background: #fd7b7b;
+    color: #1e1f2b;
+    font-size: 19px;
+    -webkit-transition: .5s ease all;
+    transition: .5s ease all;
+  }
+  
+  .contact textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  .contact button {
+    display: block;
+    width: auto;
+    background: #bd3d3d;
+    border-radius: 4px;
+    padding: 10px 15px;
+    border: none;
+    color: #f9fdff;
+    font-weight: 800;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -webkit-transition: .5s ease all;
+    transition: .5s ease all;
+  }
+  
+  .white-text {
+    color: white;
+  }
+
+  .row white box-shadow {
+      background-color: #160f5a !important;
+  }
