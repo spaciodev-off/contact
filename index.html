@@ -8,9 +8,9 @@
   <link rel="stylesheet" href="style.css">
 
 
-  <meta name="description" content="Vous avez besoin d'aide? Contactez nous directement via ce form.">
-  <meta name="theme-color" content="#9e7bfd">
-  <meta name="og:image" content="https://github.com/PPC409/Dylann/blob/main/BotLogo.png?raw=true">
+  <meta name="description" content="Vous avez besoin d'aide? Contactez nous ;)">
+  <meta name="theme-color" content="#6e3de2">
+  <meta name="og:image" content="https://images-ext-1.discordapp.net/external/ec52Zm2YFQxKA2SvvFcFrAWqEXXKn-tv5JcgmNiN2Ko/%3Fsize%3D4096/https/cdn.discordapp.com/icons/831617716681965569/979564b5901fa64b49d75e25032e14be.webp?width=499&height=499">
 <!-- <meta http-equiv="refresh" content="12"> -->
 <title>SpacioDev - Contact</title>
 
@@ -23,22 +23,31 @@
           <div class="main-content">
             <div class="content-header">
               <a class="anchor" name="contact"></a>
-              <h2 class="white-text">Nous contacter</h2>
+              <h2 class="white-text">Nous contacter</h2><hr><br><br>
             </div>
             <div class="contact content-body" align="center">
               <form method="POST" action="https://formspree.io/f/mdobzado">
 
+                  <p><u>De quoi voulez vous nous parler ?</u></p>
                   <input type="text" name="Sujet" placeholder="Sujet" required> <br>
+
+                  <p><u>Tappez votre adresse mail pour que nous puissions vous recontacter.</u></p>
                   <input type="email" name="Mail du posteur" placeholder="Votre email" required> <br>
+
+                  <p><u>Quel est votre message ?</u></p>
                   <textarea name="Message" placeholder="Vôtre message" required style="font-size: 20.4px;"></textarea> <br>
+
+                  <p><u>Qu'attendez vous de nous?</u></p>
                   <textarea name="Attentes" placeholder="Qu'attendez vous de nous?" required style="font-size: 20.4px;"></textarea> <br>
 
-                  <button type="submit">Envoyé</button>
-              </form>
-            </div>
+                  <button id="submit"  onclick="close()" >Envoyé</button>
+                </form>
+              </div>
           </div>
           <div class="side-content"></div>
         </div>
+
+        <script src="main.js"></script>
         <!-- END CONTACT -->  
 </body>
 </html>
